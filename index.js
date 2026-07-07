@@ -18,7 +18,7 @@ const port = 5000;
 
 // إعداد CORS
 const options = {
-    origin: ["https://nazafaa.com" , "http://localhost:3000"], // ✅ السماح بالوصول من هذا النطاق
+    origin: ["https://nazafaa.com" , "http://localhost:3000" , "https://al-kharj-clean-git-main-ramadans-projects-777f5ec4.vercel.app" , "https://al-kharj-clean-p83g3hz29-ramadans-projects-777f5ec4.vercel.app"], // ✅ السماح بالوصول من هذا النطاق
     credentials: true, // ✅ السماح بالكوكيز
 };
 app.use(cors(options));
